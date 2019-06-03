@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#000" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+    </link>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/pwa/icons/chrome/chrome-favicon-16-16.png">
+
+    <!-- Only for iOS: Configs (Compatibility iOS) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="jfaPWAtkDemo">
+
+    <!-- Icons (Compatibility iOS) -->
+    <link rel="apple-touch-icon" href="/pwa/icons/ios/ios-appicon-76-76.png">
+    <link rel="apple-touch-icon" href="/pwa/icons/ios/ios-appicon-120-120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/pwa/icons/ios/ios-appicon-152-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/pwa/icons/ios/ios-appicon-180-180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="/pwa/icons/ios/ios-appicon-1024-1024.png" sizes="1024x1024">
+
+    <!-- Splash Screen (Compatibility iOS) -->
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-640-960.png" sizes="640x960">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-640-1136.png" sizes="640x1136">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-750-1334.png" sizes="750x1334">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-768-1024.png" sizes="768x1024">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-1024-768.png" sizes="1024x768">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-1242-2208.png" sizes="1242x2208">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-1334-750.png" sizes="1334x750">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-1536-2048.png" sizes="1536x2048">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-2048-1536.png" sizes="2048x1536">
+    <link rel="apple-touch-startup-image" href="/pwa/icons/ios/ios-launchimage-2208-1242.png" sizes="2208x1242">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Your app -->
+    <link rel="stylesheet" href="/assets/app.css">
+
+    <title>Page 2 - JFA PWA Toolkit Demo</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class=" light-blue">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">PWA Toolkit</a>
+                <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="https://github.com/jfadev/jfa-pwa-toolkit/blob/master/README.md">Docs</a></li>
+                    <li><a href="https://github.com/jfadev/jfa-pwa-toolkit">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/page1.html">Page 1</a></li>
+        <li><a href="/page2.html" class="active">Page 2</a></li>
+        <li><a href="/page3.html">Page 3 (not precached)</a></li>
+        <li><a href="https://github.com/jfadev/jfa-pwa-toolkit/blob/master/README.md">Docs</a></li>
+        <li><a href="https://github.com/jfadev/jfa-pwa-toolkit">GitHub</a></li>
+    </ul>
+    <div id="content" class="container">
+        <div class="section center">
+            <h3 class="header">Page 2</h3>
+            <p>
+                If it's the first time and you're offline you should go to the offline.html page
+                instead of the page3.html because you're not precached<br />
+                and access page 3.
+            </p>
+            <p>
+                <a href="/page3.html" class="pulse waves-effect waves-light btn-large light-blue darken-1">
+                	<i class="material-icons right">arrow_right</i>
+                    Go to Page 3
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <footer class="page-footer light-blue">
+        <div class="footer-copyright">
+            <div class="container">
+                Made with
+                <a class="white-text" href="https://github.com/jfadev/jfa-pwa-toolkit">jfa-pwa-toolkit</a> by
+                <a class="white-text" href="https://jordifernandes.com">@jfadev</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize (front-end framework based on Material Design) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JFA PWA Toolkit -->
+    <script type="text/javascript" src="/pwa/config.js"></script>
+    <script type="text/javascript" src="/pwa/pwa.js"></script>
+
+    <!-- Your app -->
+    <script type="text/javascript" src="/assets/app.js"></script>
+</body>
+
+</html>
