@@ -2,7 +2,7 @@
 This repository is a demo of [jfa-pwa-toolkit](https://github.com/jfadev/jfa-pwa-toolkit/)
 
 ## Online Demo
-* zap [Demo](https://pwa-toolkit-demo.jordifernandes.com)
+* ⚡️ [Demo](https://pwa-toolkit-demo.jordifernandes.com)
 
 ## Getting Started
 
