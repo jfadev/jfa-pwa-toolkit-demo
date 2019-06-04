@@ -1,7 +1,7 @@
 # jfa-pwa-toolkit-demo
 This repository is a demo of [jfa-pwa-toolkit](https://github.com/jfadev/jfa-pwa-toolkit/)
 
-## Online Demo
+## Live Demo
 * ⚡️ [Demo](https://pwa-toolkit-demo.jordifernandes.com) (Use a mobile for all features)
 
 ## Getting Started
