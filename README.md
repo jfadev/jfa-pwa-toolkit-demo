@@ -8,7 +8,7 @@ This repository is a demo of [jfa-pwa-toolkit](https://github.com/jfadev/jfa-pwa
 
 Clone the repository
 ```console
-$ git clone https://github.com/jfadev/jfa-pwa-toolkit-demo.git
+$ git clone git@github.com:jfadev/jfa-pwa-toolkit-demo.git
 ```
 
 ## Documentation
